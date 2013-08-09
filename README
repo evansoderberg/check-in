@@ -1,0 +1,1 @@
+A RESTful web service under development. Target at travellers to record their current location, POST to database, generate google map with previous and current locations.
