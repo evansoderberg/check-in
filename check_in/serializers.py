@@ -5,4 +5,4 @@ from django.conf import settings
 class EntrySerializer(serializers.ModelSerializer):
     class Meta:
         model = Entry
-        fields = ('city', 'description')    
+        fields = ('id', 'city', 'description', 'ip', 'lat', 'lon')
